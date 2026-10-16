@@ -1,11 +1,23 @@
 public class StudentReport {
-<<<<<<< HEAD
-=======
 
     public void printReport() {
-        // TO DO: Implementar la generación o impresión del reporte de estudiantes
-        System.out.println("Generando reporte de estudiantes...");
+        System.out.println("=================================");
+        System.out.println("     REPORTE DE ESTUDIANTES      ");
+        System.out.println("=================================");
+        
+        // Datos de ejemplo impresos directamente
+        System.out.println("1. Ana García   - Nota: 9.5");
+        System.out.println("2. Carlos Pérez - Nota: 8.2");
+        System.out.println("3. María López  - Nota: 7.8");
+        
+        System.out.println("---------------------------------");
+        System.out.println("Reporte generado con éxito.");
+        System.out.println("=================================");
     }
 
->>>>>>> deba3aa7a943c4d9a3e1ea268395827321c43e0a
+    // Método principal para probar que funcione
+    public static void main(String[] args) {
+        StudentReport report = new StudentReport();
+        report.printReport(); // Llama a la función
+    }
 }
